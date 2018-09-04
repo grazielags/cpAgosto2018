@@ -1,0 +1,19 @@
+Problema:
+identificar o valor de z somando os valores de x + y
+
+Entradas: 
+x=20
+y=5
+
+2 valores reais, x e y;
+Saídas:
+A soma: z = x + y;
+Algoritmo:
+Início
+x=20
+y=5
+Calcular a soma de x e y
+Escrever x
+escrever y
+escrever z
+Fim
