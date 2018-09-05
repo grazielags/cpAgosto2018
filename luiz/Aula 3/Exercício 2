@@ -2,4 +2,8 @@ A=4
 B=3
 C=A+B
 D=A-B
-
+print("4",A)
+print("3",B)
+print("7",C)
+print("1",D)
+print("Fim do Algoritimo")
