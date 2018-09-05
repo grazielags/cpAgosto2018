@@ -1,1 +1,9 @@
-
+Início
+Entrada
+5 valores reais, num1 + num2 + num3 + num4 + num5
+Saída
+media := (Pessoa1 + Pessoa2 + Pessoa3 + Pessoa4 + Pessoa5)/5
+Ler  Pessoa1, Pessoa2, Pessoa3, Pessoa4, Pessoa5
+Calcular a media := (num1 + num2 + num3 + num4 + num5)/5
+Escrever media 
+Fim-Algoritmo
