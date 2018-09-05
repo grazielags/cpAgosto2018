@@ -1,0 +1,15 @@
+Problema:
+	idade de media 
+Entradas:
+	pe1,pe2,pe3,pe4,pe5
+Saídas:
+      escreva a idade media das pessoas
+
+Algoritmo:
+Início
+	escrava a idade pe1 
+        escreva a idade pe2 
+        escreva a idade pe3
+        escreva a idade pe4 
+        escreva a idade pe5 
+Fim
