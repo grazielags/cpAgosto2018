@@ -1,0 +1,37 @@
+>>> Exercício 2 <<<
+Escreva um algoritmo para armazenar o valor 4 em uma variável A e o valor 3 em uma variável B. A seguir, armazenar a soma de A com B em uma variável C e a subtração de A com B em uma variável D. Escrever o valor de A, B, C e D e também escrever a mensagem 'Fim do Algoritmo'.
+
+- Linguagem Natural
+Problema:
+  Soma de dois valores reais
+  Subtração de dois valores reais
+Entradas: 
+  Dois valores reais, A=4 e B=3
+Saída:
+  A soma: Soma= A+B = C
+  A subtração= A-B = D
+Algorítimo:
+  Início
+  Ler A
+  Ler B
+  Calcular a soma de A e B
+  Escrever o resultado da soma em C
+  Calcular a subtração de A e B
+  Escrever o resultado da subtração em D
+  Escrever fim do algorítimo
+FIm
+
+- Portugues Estruturado
+var
+A, B, resultado: inteiro
+escreva(“Digite um valor para o primeiro número: 4”)
+leia A
+escreva(“Digite um valor para o primeiro número: 3”)
+leia B
+resultado <- A + B
+escrever (resultado)
+resultado <- A - B
+escrever (resultado)
+escrever (Fim do Algorítimo)
+fim;
+
