@@ -1,0 +1,45 @@
+- Liguagem natural: 
+
+Problema:
+Somar 2 valores;
+Entradas:
+>>> Exercício 3 <<<
+Criar um algoritmo que leia a idade de 5 pessoas e apresente a idade média delas.
+
+- Linguagem Natural
+problema: 
+descobrir idade media de um grupo de 05 pessoas
+Entradas:
+05 valores reais, A, B, C, D, E
+Saídas:
+A soma: soma= A + B + C + D + E
+A divisão: resultado da soma dividido por 5
+Algoritmo:
+Inicio
+Ler A, B, C, D, E.
+Escrever a soma de A + B + C + D + E
+Ler o resultado da soma
+Escrever a divisão 
+Dividir resultado da soma por 5
+Escrever o resultado da divisão
+Fim
+
+- Portugues Estruturado
+var
+A, B, C, D, E resultado: inteiro
+escreva(“Digite um valor para o primeiro número: A”)
+leia (A)
+escreva(“Digite um valor para o segundo número: B”)
+leia (B)
+escreva(“Digite um valor para o terceiro número: C”)
+leia (C)
+escreva(“Digite um valor para o quarto número: D”)
+leia (D)
+escreva(“Digite um valor para o quinto número: E”)
+leia (E)
+resultado <- A + B + C + D + E
+escrever(resultado da soma)
+resultado <- soma / 5
+escrever (resultado da divisão)
+fim
+

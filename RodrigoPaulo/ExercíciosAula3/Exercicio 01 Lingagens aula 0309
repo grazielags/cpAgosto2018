@@ -1,0 +1,41 @@
+>>> Exercício 01 <<<
+Escreva um algoritmo para armazenar o valor 20 em uma variável X e o valor 5 em uma variável Y. 
+A seguir, armazenar a soma do valor de X com o de Y em uma variável Z. 
+Escrever (na tela) o valor armazenado em X, em Y e em Z.
+
+
+
+>> Linguagem natural
+
+Problema:
+Somar dois valores e mostrar o resultado
+Entradas:
+2 valores reais, X=20 e Y=5
+Saidas:
+A soma: z = X+Y
+Algoritimo:
+Início
+X=20
+Y=5
+Calcular a soma de X e Y e armazenar em Z
+Escrever "X = "x
+escrever "Y = "y
+Escrever "Z = "z
+fim
+
+>> Portugues Estruturado
+
+inicio
+var 
+X, Y, Z, resultado: inteiro
+x = 20
+y = 5
+z <- x + y
+escrever ("X = " <- x)
+escrever ("Y = " <- y)
+escrever ("z = " <- z)
+fim;
+
+
+
+

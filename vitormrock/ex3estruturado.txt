@@ -1,0 +1,18 @@
+início
+   var
+      pe1,pe2,p3,pe4,pe5: inteiro
+
+   pe1,pe2,p3,pe4,pe5
+  
+   escreva pe1
+  leia num
+ escreva pe2
+leia num
+escreva pe3 
+ leia num
+ escreva pe4
+ leia num
+ escreva pe5
+ leia num 
+
+fim;
