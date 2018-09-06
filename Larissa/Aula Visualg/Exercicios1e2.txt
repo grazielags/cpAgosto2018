@@ -1,0 +1,6 @@
+1. O VisuAlg apresenta uma tela de "Aviso" de que encontrou um problema no algoritmo, e informa o número da linha. Informa que há erro na atribuição de valores a uma das variáveis. Informa que essa variável precisa ser modificada de um valor REAL para um valor INTEIRO.
+
+2. a) inteiro
+b) real
+c) inteiro
+d) caractere
