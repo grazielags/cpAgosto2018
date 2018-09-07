@@ -1,4 +1,4 @@
-algoritmo "Ecercicio03"
+algoritmo "Exercicio03"
 // Função :
 // Autor :
 // Data : 5/9/2018
