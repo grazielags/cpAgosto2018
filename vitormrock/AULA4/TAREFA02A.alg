@@ -1,4 +1,4 @@
-algoritmo "asuaidade"
+algoritmo "Tarefa02A"
 
 var
    idade:inteiro
