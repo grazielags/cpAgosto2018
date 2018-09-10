@@ -1,0 +1,15 @@
+algoritmo "conversor"
+// Função :
+// Autor :
+// Data : 09/09/2018
+// Seção de Declarações 
+var
+temp_celsius, temp_Fahrenheit: real
+
+inicio
+// Seção de Comandos
+escreval("temperatura celsius:")
+leia(temp_celsius)
+temp_fahrenheit <-(9*temp_celsius + 160)/5
+escreval("a temp_fahrenheit é:", temp_Fahrenheit)
+fimalgoritmo
