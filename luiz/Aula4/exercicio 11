@@ -1,0 +1,15 @@
+algoritmo "velozes e furiosos"
+// Função :
+// Autor :
+// Data : 09/09/2018
+// Seção de Declarações 
+var
+vel_km_h, vel_m_s: real
+
+ inicio
+// Seção de Comandos 
+escreval("informe a velocidade em Km/H:")
+leia(vel_km_h)
+vel_m_s <- (vel_km_h * 1000)/(60*60)
+escreval(vel_km_h, " km/h correponde a ", vel_m_s, " m/s")
+fimalgoritmo

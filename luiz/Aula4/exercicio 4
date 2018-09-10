@@ -1,0 +1,17 @@
+algoritmo " Media tecla1, tecla 2
+// Função :
+// Autor :
+// Data : 09/09/2018
+// Seção de Declarações 
+var
+tecla1, tecla2, media: real
+
+inicio
+// Seção de Comandos 
+escreval("digite a tecla1")
+leia (tecla1)
+escreval("digite a tecla2")
+leia(tecla2)
+media <- (tecla1 + tecla2) / 2
+escreval ("media da tecla e: ", media)
+fimalgoritmo
