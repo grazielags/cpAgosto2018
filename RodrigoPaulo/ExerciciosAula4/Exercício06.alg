@@ -1,5 +1,6 @@
 algoritmo "Execricio06"
 // Função : Calcule o valor de cada expressão abaixo e indique o tipo do resultado (inteiro ou real), onde b = 1 e c = 2:
+// Poderia ter sido usado varios resultados, ex: res1, res2, res3 indicando cada um real ou inteiro
 // Autor :  Rodrigo Paulo
 // Data : 5/9/2018
 // Seção de Declarações 
