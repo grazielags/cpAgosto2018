@@ -1,0 +1,22 @@
+algoritmo "Consumo de combustível"
+// Função :
+// Autor :
+// Data : 09/09/2018
+// Seção de Declarações 
+var
+tempo : inteiro
+distancia, litros_us, velocidade : real
+
+inicio
+// Seção de Comandos
+escreval ("Digite o tempo gasto na viagem")
+leia (tempo)
+escreval ("Digite a velocidade média ")
+leia (velocidade)
+distancia <- tempo * velocidade
+litros_us <- distancia / 12
+escreval ("Velocidade média = ", velocidade)
+escreval ("Tempo gasto na viagem = ", tempo)
+escreval("Distancia percorrida ", distancia)
+escreval ("Qtde de litros usados = ", litros_us)
+fimalgoritmo

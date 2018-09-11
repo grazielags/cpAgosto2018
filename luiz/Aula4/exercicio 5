@@ -1,0 +1,23 @@
+algoritmo "Dados cadastrais"
+// Função :
+// Autor :
+// Data : 09/09/2018
+// Seção de Declarações 
+var
+nome: caractere
+telefone:numerico
+endereco: caractere
+idade: inteiro
+inicio
+// Seção de Comandos 
+nome <-"Luiz"
+telefone <- 00-000000
+endereco <-"fim do mumdo,1"
+idade<- 41
+escreval("nome:",nome)
+leia(nome)
+escreval("telefone:",telefone)
+escreval("endereco:",endereco)
+leia(endereco)
+escreval("idade:",idade)
+fimalgoritmo
