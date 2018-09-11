@@ -3,10 +3,10 @@
 início
    var
       x, y, z: inteiro
-   x = 20
-   y = 5
+   x <- 20
+   y <- 5
    z <- x + y
-   escrever("X = " + x)
-   escrever("Y = " + y)
-   escrever("Z = " + z)
+   escrever("X = " <- x)
+   escrever("Y = " <- y)
+   escrever("Z = " <- z)
 fim;

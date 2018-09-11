@@ -26,20 +26,19 @@ Fim
 
 - Portugues Estruturado
 var
-A, B, C, D, E resultado: inteiro
-escreva(“Digite um valor para o primeiro número: A”)
+A, B, C, D, E: inteiro
+resultado: real
+escreval(“Digite a idade da primeira pessoa: A”)
 leia (A)
-escreva(“Digite um valor para o segundo número: B”)
+escreval(“Digite a idade da segunda pessoa: B”)
 leia (B)
-escreva(“Digite um valor para o terceiro número: C”)
+escreval(“Digite a idade da terceira pessoa: C”)
 leia (C)
-escreva(“Digite um valor para o quarto número: D”)
+escreval(“Digite a idade da quarta pessoa: D”)
 leia (D)
-escreva(“Digite um valor para o quinto número: E”)
+escreval(“Digite a idade da quinta pessoa: E”)
 leia (E)
-resultado <- A + B + C + D + E
-escrever(resultado da soma)
-resultado <- soma / 5
-escrever (resultado da divisão)
+resultado <- A + B + C + D + E / 5
+esreval("A media de idade é: ",resultado, "anos")
 fim
 

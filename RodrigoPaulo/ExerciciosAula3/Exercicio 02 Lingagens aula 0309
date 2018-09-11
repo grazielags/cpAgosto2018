@@ -23,15 +23,15 @@ FIm
 
 - Portugues Estruturado
 var
-A, B, resultado: inteiro
-escreva(“Digite um valor para o primeiro número: 4”)
-leia A
-escreva(“Digite um valor para o primeiro número: 3”)
-leia B
-resultado <- A + B
-escrever (resultado)
-resultado <- A - B
-escrever (resultado)
-escrever (Fim do Algorítimo)
-fim;
-
+a,b: inteiro
+c,d: real
+inicio
+a<-4
+b<-3
+escreval("Valor de A: ", a)
+escreval("Valor de B: ", b)
+c <- a + b
+escreval("Valor de C: ", c)
+d <- a - b
+escreval("Valor de D: ", d)
+escreval("Fim do algoritimo")
