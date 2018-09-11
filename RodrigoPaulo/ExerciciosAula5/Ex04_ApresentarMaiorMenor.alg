@@ -19,8 +19,6 @@ inicio
       se v2 < menor entao
          menor <- v2
       fimse
-      Escreval ("Maior: ", maior)
-      Escreval ("Menor: ", menor)
       Escreval ("Digite o terceiro valor: ")
       leia(v3)
       se v3 > maior entao
@@ -29,8 +27,6 @@ inicio
       se v3 < menor entao
          menor <- v3
       fimse
-      Escreval ("Maior: ", maior)
-      Escreval ("Menor: ", menor)
       escreval ("Digite o quarto valor: ")
       leia(v4)
       se v4 > maior entao
@@ -39,8 +35,6 @@ inicio
       se v4 < menor entao
          menor <- v4
       fimse
-      Escreval ("Maior: ", maior)
-      Escreval ("Menor: ", menor)
       escreval ("Digite o quinto valor: ")
       leia(v5)
       se v5 > maior entao
