@@ -44,6 +44,6 @@ inicio
    se (valor5 < menor) entao
       menor <- valor5
    fimse
-   escreval("maior:", maior)
-   escreval("menor:", menor)
+   escreval("O maior valor é:", maior)
+   escreval("O menor valor é:", menor)
 fimalgoritmo
