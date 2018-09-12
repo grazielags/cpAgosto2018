@@ -16,8 +16,8 @@ inicio
    leia(nota3)
    media <- (nota1 + nota2 + nota3) /3
    se (media >= 7) entao
-      Escreval("aprovado!")
+      Escreval(nome, "você foi aprovado com média:", media)
    senao
-      Escreval("reprovado!")
+      Escreval(nome, "você foi reprovado com média:", media)
    fimse
 fimalgoritmo
