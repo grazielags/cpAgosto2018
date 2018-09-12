@@ -1,4 +1,4 @@
-algoritmo "EdDaSuaCasa"
+algoritmo "Tarefa02B"
 
 var
     endereco:caractere

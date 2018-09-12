@@ -1,0 +1,19 @@
+algoritmo "impar par"
+
+var
+n : inteiro
+inicio
+escreval("digite o numero")
+leia(n)
+se n >= 0 entao
+escreval(n," é positivo") 
+senao
+escreval(n," é negativo")
+fimse
+se (n % 2) = 0 entao
+escreval(n," é par")
+senao
+escreval(n," é impar")
+fimse
+
+fimalgoritmo

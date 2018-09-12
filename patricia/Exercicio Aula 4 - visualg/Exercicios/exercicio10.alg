@@ -9,7 +9,7 @@ inicio
       leia (B)
       C <-A
       A <-B
-      B<-C
+      B <-C
       Escreval ("O novo valor de A =", A)
       Escreval ("O novo valor de B =", B)
 fimalgoritmo
