@@ -8,14 +8,14 @@ var
 inicio
       escreval("Digite o numero1: ")
       leia(n1)
-      se n1 mod 2 = 0 entao
+      se (n1 mod 2) = 0 entao
          escreval(n1, "é par")
       senao
-           escreval(n1, "é impar")
+         escreval(n1, "é impar")
       fimse
       se n1 >= 0 entao
-         escreva (n1, "é positivo")
+         escreva(n1, "é positivo")
       senao
-           escreva(n1, "é negativo")
+         escreva(n1, "é negativo")
       fimse
 fimalgoritmo

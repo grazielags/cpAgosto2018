@@ -13,25 +13,19 @@ inicio
          Escreval("Quantidade de notas de 100: ", (valor div 100))
           valor <- (valor mod 100)
       fimse
-      escreval(valor)
       se (valor >= 50) entao
          Escreval("Quantidade de notas de 50: ", (valor div 50))
          valor <- (valor mod 50)
       fimse
-      escreval(valor)
       se (valor >= 10) entao
          Escreval("Quantidade de notas de 10: ", (valor div 10))
          valor <- (valor mod 10)
       fimse
-      escreval(valor)
       se (valor >= 5) entao
          Escreval("Quantidade de notas de 5: ", (valor div 5))
          valor <- (valor mod 5)
       fimse
-      escreval(valor)
       se (valor >= 1) entao
-         Escreval ("Quantidade de notas de 1: ", (valor div 1))
-         valor <- (valor mod 1)
+         Escreval ("Quantidade de notas de 1: ", valor)
       fimse
-      escreval(valor)
 fimalgoritmo
