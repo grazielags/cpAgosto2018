@@ -1,7 +1,7 @@
 algoritmo "condicionalsimples"
 
 var
-   ano: real
+   ano: inteiro
    valor:real
    imposto: real
 inicio
@@ -9,7 +9,7 @@ inicio
       leia (ano)
       Escreval ("Informe o valor da tabela FIP do seu carro")
       leia (valor)
-      se (ano < 1990) entao
+      se ano < 1990 entao
         imposto <- valor*0.01
       senao
         imposto <- valor*0.015
