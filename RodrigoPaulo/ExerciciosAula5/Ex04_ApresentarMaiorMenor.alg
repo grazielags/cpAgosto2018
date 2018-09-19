@@ -43,7 +43,7 @@ inicio
       se v5 < menor entao
          menor <- v5
       fimse
-      Escreval ("Maior: ", maior)
-      Escreval ("Menor: ", menor)
+      Escreval ("O maior valor é: ", maior)
+      Escreval ("O menor valor é: ", menor)
 
 fimalgoritmo
