@@ -45,6 +45,7 @@ enquanto count <= 2 faca
   
   count <- count + 1
 
+        limpatela
 
 fimenquanto
 
