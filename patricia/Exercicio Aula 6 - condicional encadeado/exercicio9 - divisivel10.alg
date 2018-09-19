@@ -3,8 +3,12 @@ algoritmo "repeticao"
 var
    count: inteiro
 inicio
-      enquanto count de 100 ate 1000 faca
+      count <- 100
+      enquanto count <= 1000 faca
+         se count % 10 = 0 entao
                Escreval (count)
-               countMOD 10 = 0
+         fimse
+         count <- count + 1
       fimenquanto
 fimalgoritmo
+

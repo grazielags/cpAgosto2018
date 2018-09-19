@@ -5,7 +5,9 @@ var
 inicio
       escreval("Informe um número para tabuada:")
       leia(n)
-      enquanto i de 1 ate 10 faca
-         escreval(n," x",i:3," =",i*n)
+      i <- 1
+      enquanto i <= n faca
+         escreval(i," x",n," =",(i*n))
+         i <- i + 1
       fimenquanto
 fimalgoritmo
