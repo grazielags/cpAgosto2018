@@ -1,0 +1,18 @@
+algoritmo "Detran"
+
+var
+ano: inteiro
+preco, imposto: real
+
+inicio
+escreval( "informe o ano")
+leia(ano)
+escreval("informe o preco")
+leia(preco)
+se(ano < 1990) entao
+imposto<- preco * 0,01
+senao
+imposto<-  preco *0,015
+fimse
+escreval("O VALOR DE IMPOSTO A PAGAR É DE R$: ", imposto)
+fimalgoritmo

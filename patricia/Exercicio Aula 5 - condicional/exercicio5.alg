@@ -6,9 +6,9 @@ inicio
       Escreval ("Digite um numero:")
       leia (n1)
       se ((n1 mod 2) = 0) entao
-         escreva ("O numero e par")
+         escreva ("O numero:", n1, " e par")
       senao
-         escreva ("O numero e impar")
+         escreva ("O numero:", n1, " e impar")
       fimse
       se (n1 >= 0) entao
         escreva (" e positivo")

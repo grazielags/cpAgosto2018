@@ -8,8 +8,8 @@ inicio
       Escreval ("Valor 2")
       leia (valor2)
       se valor1 > valor2 entao
-         escreval("O valor 1 e maior que o valor 2")
+         escreval("O valor", valor1, " e maior que o valor", valor2)
       senao
-         escreval ("O valor 2 e maior que o valor 1")
+         escreval ("O valor", valor2, " e maior que o valor", valor1)
       fimse
 fimalgoritmo
