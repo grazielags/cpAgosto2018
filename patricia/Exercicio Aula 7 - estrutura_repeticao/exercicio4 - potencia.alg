@@ -1,15 +1,15 @@
 algoritmo "repeticao"
 
 var
-   x, y, i, potencia: inteiro
+   x, y, i, result: inteiro
 inicio
       Escreval ("Valor para X")
       leia (x)
       Escreval ("Valor para Y")
       leia (y)
-      potencia <- 1
+      result <- 1
       para i de 1 ate y faca
-           potencia <- potencia*x
+           result <- result*x
       fimpara
-      Escreval ("x na potencia y=", potencia)
+      Escreval ("x na potencia y=", result)
 fimalgoritmo

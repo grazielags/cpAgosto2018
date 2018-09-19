@@ -5,7 +5,10 @@ var
 inicio
       count <- 100
       enquanto count <= 1000 faca
+         se count % 10 = 0 entao
                Escreval (count)
-               countMOD 10 = 0
+         fimse
+         count <- count + 1
       fimenquanto
 fimalgoritmo
+

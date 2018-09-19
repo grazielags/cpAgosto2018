@@ -1,4 +1,4 @@
-algoritmo "repeticao"
+algoritmo "repeticaofim"
 
 var
    n, fatorial: inteiro

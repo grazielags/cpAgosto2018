@@ -1,13 +1,12 @@
-algoritmo "repeticao"
+algoritmo "repeticaofim"
 
 var
-   n, x, fatorial: inteiro
+   count: inteiro
 inicio
-      Escreval ("Digite valor para descobrir seu fatorial:")
-      Leia (n)
-      fatorial <- n
-      repita
-        Escreval (n)
-        fatorial <- fatorial*(fatorial-n)
-      ate n < fatorial
+      count <- 100
+      enquanto count >= 1 faca
+               Escreval (count)
+         count <- count - 1
+      fimenquanto
 fimalgoritmo
+

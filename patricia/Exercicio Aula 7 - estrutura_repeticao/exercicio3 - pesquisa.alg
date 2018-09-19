@@ -1,4 +1,4 @@
-algoritmo "repeticao"
+algoritmo "repeticaofim"
 
 var
    sexo, corolhos:caractere
@@ -7,10 +7,22 @@ inicio
       enquanto count<5 faca
         Escreval ("Informe o seu sexo, sendo F para feminino e M para masculo:")
         Leia (sexo)
+        enquanto (sexo <> "F") e (sexo <> "M") faca
+          escreval ("Informe o seu sexo, sendo F para feminino e M para masculo:")
+          Leia (sexo)
+        fimenquanto
         Escreval ("Informe sua idade:")
         Leia (idade)
+        enquanto (idade > 0) faca
+          escreval ("Informe sua idade:")
+          Leia (idade)
+        fimenquanto
         Escreval ("Informe a cor dos seus olhos, sendo V para verde, A para azul e C para castanho:")
         Leia (corolhos)
+        enquanto (corolhos <> "V") e (corolhos <> "A") e (corolhos <> "C") faca
+          escreval ("Informe a cor dos seus olhos, sendo V para verde, A para azul e C para castanho:")
+          Leia (corolhos)
+        fimenquanto
         se idade > maioridade entao
            maioridade <- idade
         fimse

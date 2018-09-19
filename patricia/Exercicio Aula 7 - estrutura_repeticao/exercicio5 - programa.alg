@@ -1,4 +1,4 @@
-algoritmo "repeticao"
+algoritmo "repeticaofim"
 
 var
    idade, count, maioridade, menoridade, somaidade: inteiro
