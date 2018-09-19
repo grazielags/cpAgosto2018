@@ -6,7 +6,7 @@ inicio
 leia (n)
 me <- m
 ma <- n
-para cont de 1 ate 19 faca
+para cont de 1 ate 100 faca
 Leia (n)
 se n < me entao
 me <- m

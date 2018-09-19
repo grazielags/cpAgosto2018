@@ -7,16 +7,16 @@ var
     valorDigitado, soma: inteiro
 inicio
 
-      soma <- 0
+      soma <- 0 // a variavel ja assume o valor de 0, nao precisando digitar.
            escreva ("Digite um valor: ")
            leia (valorDigitado)
            
-           enquanto (valorDigitado mod 2 = 0) faca
+           enquanto (valorDigitado mod 2) = 0 faca     //aqui tambem pode ser usando o % que tem o mesmo significado do mod
                     soma <- soma + valorDigitado
-                    Escreval("Total: ", soma)
+                    //Escreval("Total: ", soma)
                     escreva("Digite um valor: ")
                     leia(valorDigitado)
            fimenquanto
            
-      Escreva("Resultado: ", soma)
+      Escreva("Resultado da soma: ", soma)
 fimalgoritmo

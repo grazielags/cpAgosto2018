@@ -4,17 +4,25 @@ algoritmo "Ex8_valoresSomaMaiorMenor"
 // Data : 16/9/2018
 // Seção de Declarações 
 var
-  m,n, maior:real
+  m,n,soma, contador, maiorValor:inteiro
 inicio
-      maior <- 0
-      repita
-        escreval("Digite um valor: ")
-        leia(n)
+      escreval("Escreva um valor para m: ")
+      leia(m)
+      escreval("Escreva um valor para n: ")
+      leia(n)
       
-        se (n > maior) entao
-            maior <- n
-
-        fimse
-        ate n = 0
-        escreval ("O maior número é: ", maior)
+      se m > n entao
+         contador <- n
+         maiorValor <- m
+      senao
+           contador <- m
+           maiorValor <- n
+      fimse
+      
+           enquanto contador <= maiorValor faca
+                    soma <- soma + contador
+                    contador <- contador + 1
+           fimenquanto
+           
+      escreval("Soma dos valores: ", soma)
 fimalgoritmo
