@@ -11,3 +11,4 @@ inicio
    fimpara
 fimalgoritmo
 
+tarefa 04 melhor e o caso
