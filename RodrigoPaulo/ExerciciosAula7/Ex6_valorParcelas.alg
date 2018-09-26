@@ -6,30 +6,30 @@ algoritmo "Ex6_valorParcelas"
 //* de 6 até 10 parcelas 10% de acréscimo.
 // Autor :  Rodrigo Paulo Bauernfeind
 // Data : 19/9/2018
-// Seção de Declarações 
+// Seção de Declarações
 var
-    valor, novoValor, parcelas: real
+valor, novoValor, parcelas: real
 inicio
 
-      escreval("Digite o valor do produto: ")
-      leia(valor)
-      escreval("Digite a quantidade de parcelas desejadas: ")
-      leia(parcelas)
+escreval("Digite o valor do produto: ")
+leia(valor)
+escreval("Digite a quantidade de parcelas desejadas: ")
+leia(parcelas)
 
 
-      se (parcelas = 1) entao
-         novoValor <- valor - (valor*0.10)
-         escreval("O Valor do produto com desconto de 10% é R$ ", novoValor)
-      senao
-           se (parcelas >= 2) e (parcelas <= 5) entao
-              novoValor <- (valor + (valor * 0.05)) / parcelas)
-              escreval("O Valor das parcelas é R$ ", novoValor)
-           senao
-                se (parcelas >= 6) e (parcelas <= 10) entao
-                   novoValor <- (valor + (valor * 0.10)) / parcelas)
-                   escreval("O Valor das parcelas é R$ ", novoValor)
-                fimse
-           fimse
-       fimse
+se (parcelas = 1) entao
+   novoValor <- valor - (valor*0.10)
+   escreval("O Valor do produto com desconto de 10% é R$ ", novoValor)
+senao
+   se (parcelas >= 2) e (parcelas <= 5) entao
+      novoValor <- (valor + (valor * 0.05)) / parcelas)
+      escreval("O Valor das parcelas é R$ ", novoValor)
+   senao
+      se (parcelas >= 6) e (parcelas <= 10) entao
+         novoValor <- (valor + (valor * 0.10)) / parcelas)
+         escreval("O Valor das parcelas é R$ ", novoValor)
+      fimse
+   fimse
+fimse
 fimalgoritmo
 
