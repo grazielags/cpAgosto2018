@@ -14,7 +14,11 @@ inicio
         fimpara
    fimpara
 
-      limpatela
+   limpatela
+
+   escreval
+   escreval("Apresentação da MATRIZ")
+   escreval("--------------------------")
        
    para linhas de 0 ate 9 faca
         para colunas de 0 ate 4 faca
