@@ -1,7 +1,7 @@
 algoritmo "Ex6_SomaLinhaSelecionada"
 // Função : Escrever um algoritmo que crie uma matriz de 3 x 3 preencha os valores da matriz com informações do usuário
-//e obtenha o número de uma linha do usuário para realizar a soma dos valores da linha informada
-// Autor :
+//          e obtenha o número de uma linha do usuário para realizar a soma dos valores da linha informada
+// Autor : Rodrigo Paulo Bauernfeind
 // Data : 26/9/2008
 // Seção de Declarações 
 var
@@ -16,7 +16,7 @@ inicio
            fimpara
       fimpara
       
-
+           limpatela
 
       escreval
       escreval("Vizualização da Matriz")
@@ -42,6 +42,6 @@ inicio
         para colunas de 0 ate 3 faca
              soma <- soma + mat[linhaSel, colunas]
         fimpara
-      escreva("A soma da linha escolhida é: ", soma)
+      escreva("A soma da linha selecionada é: ", soma)
       
 fimalgoritmo

@@ -1,11 +1,12 @@
 algoritmo "Ex7_somaIndices"
 // Função :  Crie uma matriz onde cada elemento terá o valor da soma dos seus índices:
+// elemento: juncao dos indices  e indce: numero de cada linha e cada coluna, posicao
 // Autor :  Rodrigo Paulo Bauernfeind
 // Data : 26/9/2018
 // Seção de Declarações 
 var
      matriz: vetor [0..2, 0..2] de inteiro
-     linha, coluna, soma : inteiro
+     linha, coluna: inteiro
 inicio
 
 
@@ -14,14 +15,14 @@ inicio
            matriz[linha,coluna] <- linha + coluna
            fimpara
       fimpara
-      
 
-      escreval
+
+
       escreval("Vizualização da Matriz")
       escreval("----------------------")
       escreval
       
-      escreva()
+
       
       para linha de 0 ate 2 faca
            para coluna de 0 ate 2 faca
