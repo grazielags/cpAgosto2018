@@ -10,10 +10,8 @@ inicio
       fimpara
    fimpara
     para l de 0 ate 2 faca
+       Escreva ("linha '", l, " ':")
        para c de 0 ate 2 faca
-       se c= 0 entao
-         Escreva ("linha '", l, " ':")
-       fimse
          Escreva (matriz[l,c])
        fimpara
        Escreval ("")

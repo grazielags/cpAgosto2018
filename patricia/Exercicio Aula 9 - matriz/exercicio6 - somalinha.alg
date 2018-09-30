@@ -10,15 +10,16 @@ inicio
          leia (matriz[l,c])
       fimpara
    fimpara
-   //para l de 0 ate 3 faca
-      //para c de 0 ate 3 faca
-      //se c= 0 entao
-         //Escreva ("linha '", l, "':")
-      //fimse
-         //Escreva (matriz[l,c])
-      //fimpara
-      //Escreval ("")
-   //fimpara
+   limpatela
+   para l de 0 ate 3 faca
+      para c de 0 ate 3 faca
+      se c= 0 entao
+         Escreva ("linha '", l, "':")
+      fimse
+         Escreva (matriz[l,c])
+      fimpara
+      Escreval ("")
+   fimpara
    linhainformada <- -1
    enquanto ( linhainformada<0) ou (linhainformada>3 ) faca
       Escreval("Informe a linha para soma:")
