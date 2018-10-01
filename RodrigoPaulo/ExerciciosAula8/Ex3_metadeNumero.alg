@@ -5,17 +5,16 @@ algoritmo "Ex3_metadeNumero"
 // Data : 19/9/2018
 // Seção de Declarações 
 var
-   numeros : vetor [1..10] de inteiro
-   i, posicaoVetor: inteiro
+   numeros : vetor [1..10] de real
+   i: inteiro
 inicio
-
    para i de 1 ate 10 faca
         escreva("digite um numero: ")
         leia(numeros[i])
-        numeros[i] <- numeros[i] div 2
+        numeros[i] <- numeros[i] / 2
   fimpara
 
   para i de 1 ate 10 faca
-     escreval(numeros[i])
+     escreval("posição ", i, " -> ",numeros[i])
   fimpara
 fimalgoritmo
