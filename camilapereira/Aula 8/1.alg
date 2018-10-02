@@ -4,8 +4,11 @@ var
    i: inteiro
 inicio
    para i de 0 ate 4 faca
-      Escreval("Digite o valor ", "[",i,"]: ")
-      leia(valor[i])
+      Escreval("Digite o valor ", "[",i ,"]: ")
+      Leia(valor[i])
+   fimpara
+   para i de 0 ate 4 faca
+        escreval (i, " - ", valor[i])
    fimpara
 fimalgoritmo
 

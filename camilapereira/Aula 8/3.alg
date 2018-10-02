@@ -1,15 +1,15 @@
 algoritmo "3"
 var
-    numeros: vetor [0..9] de real
-    i, valor: inteiro
+    valor: vetor [0..9] de real
+    i: inteiro
 inicio
-   para valor de 0 ate 9 faca
-      escreva("digite o valor: ")
-      leia (numeros[valor])
+   para i de 0 ate 9 faca
+      escreva("digite um valor: ")
+      leia (valor[i])
+      valor[i] <- valor[i] /2
    fimpara
    para i de 0 ate 9 faca
-        numeros[i] <- numeros[i] /2
-        Escreval ("A medade do numero dados é: ", numeros[i])
+        Escreval ("A medade do numero dados é: ", valor[i])
    fimpara
 fimalgoritmo
 
