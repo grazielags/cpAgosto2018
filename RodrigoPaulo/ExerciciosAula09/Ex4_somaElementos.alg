@@ -17,12 +17,11 @@ inicio
            fimpara
       fimpara
 
-                  para l <- 0 ate 4 faca
-                       para c <- 0 ate 4 faca
-                            soma <- soma + matriz[l,c]
-
-                       fimpara
-                  fimpara
+       para l <- 0 ate 4 faca
+          para c <- 0 ate 4 faca
+                soma <- soma + matriz[l,c]
+          fimpara
+       fimpara
 
            escreval("O valor da soma dos elementos é: " , soma)
 fimalgoritmo
