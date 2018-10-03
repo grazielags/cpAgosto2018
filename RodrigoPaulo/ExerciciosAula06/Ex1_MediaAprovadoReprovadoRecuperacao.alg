@@ -30,5 +30,5 @@ inicio
                 escreval ("Aluno Reprovado")
              outrocaso
                 escreval ("Aluno em Recuperação")
-             fimescolha
+         fimescolha
 fimalgoritmo
