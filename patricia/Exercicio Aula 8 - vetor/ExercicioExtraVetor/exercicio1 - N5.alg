@@ -1,21 +1,23 @@
 algoritmo "VetorN5"
 var
-   n: vetor [0..4] de inteiro
-   i: inteiro
+   N: vetor [0..4] de inteiro
+   i, menorN: inteiro
 inicio
-   para i de 0 ate 4 faca
-   Escreval
+       para i de 0 ate 4 faca
+            Escreval ("Informe o valor pra cada posicao [", i," ]:" )
+            leia (N[i])
+       fimpara
+       menorN <- N[0]
+       para i de 1 ate 4 faca
+            Se menorN > N[i] entao
+               N[i]<- menorN
+            Fimse
+       fimpara
+       escreval("Vetor: ")
+       para i de 0 ate 4 faca
+          escreval (" [", N[i] , " ] ")
+       fimpara
+       Escreval("O menor elemento do vetor é ",menorN, " e sua posicao dentro do vetor e:" ,i)
 fimalgoritmo
 
-inicio
-       para i de 0 ate 4 passo 1 faca
-            Escreval ("Escreva um dado qqr:", "[", i, " ]")
-            leia (valores[i])
-       fimpara
-       para i de 0 ate 4 faca
-            Escreval (i, "-", valores[i])
-       fimpara
-
-1. Faça um algoritmo que leia um vetor N[5] de inteiros.
-A seguir, encontre o menor elemento do vetor N e a sua posição dentro do vetor,
-mostrando: “O menor elemento de N é”, M, “e sua posição dentro do vetor é:”, P.
+//NAO DEU CERTO

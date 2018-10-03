@@ -1,27 +1,20 @@
 algoritmo "Exercicio3Funcao"
 
 var
-   num1, num2, maior: inteiro
+   num1, num2: inteiro
 funcao numeromaior(): inteiro
 
    inicio
+      Se num1 > num2 entao
+         retorne num1
+      Senao
+         retorne num2
+      Fimse
+   fimfuncao
+inicio
       Escreval ("Informe um numero '1':")
       Leia (num1)
       Escreval ("Informe um numero '2':")
       Leia (num2)
-      Se num1 < maior entao
-         num1 <- maior
-      Senao
-         num1
-   fimfuncao
-inicio
-      Escreval (numeromaior())
+      Escreval ("O maior valor informado e:", numeromaior())
 fimalgoritmo
-
-// Escreva uma função que retorna o número maior de 2 números obtidos do usuário
-
-se valor1 > valor2 entao
-         escreval("O valor", valor1, " e maior que o valor", valor2)
-      senao
-         escreval ("O valor", valor2, " e maior que o valor", valor1)
-      fimse
