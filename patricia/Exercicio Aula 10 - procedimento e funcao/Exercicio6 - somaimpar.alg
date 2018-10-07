@@ -13,12 +13,15 @@ inicio
       Leia (fim)
       Se (ini > fim) entao
          Escreval("intervalo invalido")
+         Escreval ("Informe o inicio do intervalo desejado para calculo:")
+         Leia (ini)
+         Escreval ("Informe o fim do intervalo desejado para calculo:")
+         Leia (fim)
       Fimse
       para i de ini ate fim faca
          Se i MOD 2 <> 0 entao
             soma <- soma + i
          Fimse
-         i <- i+1
       fimpara
       
       retorne soma

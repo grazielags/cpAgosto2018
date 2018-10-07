@@ -2,6 +2,7 @@ algoritmo "Exercicio3Funcao"
 
 var
    num1, num2: inteiro
+   
 funcao numeromaior(): inteiro
 
    inicio
@@ -10,7 +11,8 @@ funcao numeromaior(): inteiro
       Senao
          retorne num2
       Fimse
-   fimfuncao
+fimfuncao
+   
 inicio
       Escreval ("Informe um numero '1':")
       Leia (num1)
