@@ -11,7 +11,7 @@ funcao mediaNotas(nt1, nt2: inteiro): caractere
       Se (mediaNota >= 7) entao
          retorne "Parabéns você foi aprovado!"
       Senao
-         retorne "Reprovado"
+         retorne "Reprovado!"
       Fimse
    fimfuncao
    
@@ -23,5 +23,3 @@ inicio
       Escreval(mediaNotas(notas1, notas2))
 fimalgoritmo
 
-//Escreva um algoritmo que dado um vetor de 5 posições preenchido
-//retorne qual o índice que se encontra um elemento solicitado pelo usuário. Caso esse valor não exista retornar -1.
