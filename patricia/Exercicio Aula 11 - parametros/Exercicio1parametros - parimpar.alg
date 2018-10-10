@@ -15,7 +15,6 @@ funcao parimpar(n: inteiro): caracter
 inicio
       Escreval ("Informe um numero:")
       Leia (num1)
-      Escreval ("O valor informado e:", parimpar(num1))
+      Escreval ("O valor '", num1, " 'informado e:", parimpar(num1))
 fimalgoritmo
 
-//Escreva um algoritmo com uma função que receba por parâmetro um número e retorne se este número é par ou ímpar.
