@@ -1,29 +1,50 @@
-algoritmo "Procedimento"
+algoritmo "calculadora"
 var
-   num1, num2 : inteiro
-   tipodeoperacao: caracter
-procedimento operacao()
+   n1, n2: real
+   operacao : caracter
+
+procedimento soma ()
 inicio
-      Escreval ( "Resultado:" )
-      Escolha tipodeoperacao
-      Caso "+"
-           Escreval (num1 + num2)
-      Caso "-"
-           Escreval (num1 - num2)
-      Caso "/"
-           Escreval (num1 / num2)
-      Caso "*"
-           Escreval (num1 * num2)
-      Outrocaso
-           Escreval ("invalido")
-      Fimescolha
+      escreval ("Resultado: ", n1, " +", n2, " =", (n1 + n2))
 fimprocedimento
+
+procedimento subtracao ()
 inicio
-      Escreval ("Digite o primeiro valor:")
-      leia (num1)
-      Escreval("Qual tipo de operação você deseja realizar +, -, / ou *")
-      leia (tipodeoperacao)
-      Escreval ("Digite o segundo valor:")
-      leia (num2)
-      operacao()
+      escreval ("Resultado: ", n1, " -", n2, " =", (n1 - n2))
+fimprocedimento
+
+procedimento multiplicacao ()
+inicio
+      escreval ("Resultado: ", n1, " *", n2, " =", (n1 * n2))
+fimprocedimento
+
+procedimento divisao ()
+inicio
+      escreval ("Resultado: ", n1, " /", n2, " =", (n1 / n2))
+fimprocedimento
+
+inicio
+   escreval("Digite o primeiro numero: ")
+   leia(n1)
+   escreval("Digite a operacao que deseja realizar de acordo com a tabela abaixo: ")
+   escreval("   (+)SOMA")
+   escreval("   (/)DIVISAO")
+   escreval("   (-)SUBTRACAO")
+   escreval("   (*)MULTIPLICACAO")
+   leia(operacao)
+   escreval("Digite o segundo numero: ")
+   leia(n2)
+      escolha operacao
+         caso "+"
+            soma()
+         caso "-"
+            subtracao ()
+         caso "*"
+            multiplicacao ()
+         caso "/"
+            divisao ()
+         outrocaso
+            Escreval ("Invalido")
+      fimescolha
+
 fimalgoritmo
