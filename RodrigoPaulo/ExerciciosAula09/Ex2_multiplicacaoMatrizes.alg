@@ -9,19 +9,34 @@ var
     mtR: vetor [0..1, 0..1] de inteiro
     l, c: inteiro
 inicio
+   escreval("Matriz 01")
+   escreval("---------")
+   para l de 0 ate 1 faca
+        para c de 0 ate 1 faca
+          escreva("Digite o valor [" , l, "][", c, "] : ")
+          leia(mt1[l,c])
+        fimpara
+   fimpara
+   
+   escreval
+   escreval("Matriz 02")
+   escreval("---------")
+   
+   para l de 0 ate 1 faca
+        para c de 0 ate 1 faca
+          escreva("Digite o valor [" , l, "][", c, "] : ")
+          leia(mt2[l,c])
+        fimpara
+   fimpara
+
+   escreval
+   escreval("Resultado da Multiplicacao das Matrizes")
+   escreval("---------------------------------------")
 
    para l de 0 ate 1 faca
         para c de 0 ate 1 faca
-          escreval("Digite o valor [" , l, "][", c, "]")
-          leia(mt1[l,c])
-          escreval("Digite o valor [" , l, "][", c, "]")
-          leia(mt2[l,c])
-          mtR[l,c] <- mt1[l,c] * mt2[l,c]
-        fimpara
-   fimpara
-   para l de 0 ate 1 faca
-        para c de 0 ate 1 faca
-             escreval(mt1[l,c], " x ", mt2[l,c], " = ", mtR[l,c])
+             mtR[l,c] <- mt1[l,c] * mt2[l,c]
+             escreval(mt1[l,c]:2, " x ", mt2[l,c]:2, " = ", mtR[l,c]:2)
         fimpara
    fimpara
 fimalgoritmo
