@@ -1,0 +1,8 @@
+git status
+git add .
+git commit -m "Mensagem"
+git pull --rebase
+git push origin master
+
+
+

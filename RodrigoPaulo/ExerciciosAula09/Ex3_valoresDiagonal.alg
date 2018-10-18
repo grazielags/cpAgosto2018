@@ -12,16 +12,34 @@ inicio
 
       para l de 0 ate 4 faca
            para c de 0 ate 4 faca
-                escreva("Digite o valor: ")
+                escreva("Digite o valor na posicao [ ", l, "] [ " ,c, " ] : ")
                 leia(valores[l,c])
            fimpara
       fimpara
-              para l de 0 ate 4 faca
-                   para c de 0 ate 4 faca
-                        se l = c entao
-                           escreval("A diagonal da matriz é ", valores[l,c])
-                        fimse
-                   fimpara
-              fimpara
+      
+      limpatela
+      
+      escreval("Vizualização da Matriz")
+      escreval("----------------------")
+      escreval
+
+
+
+      para l de 0 ate 4 faca
+           para c de 0 ate 4 faca
+                escreva(valores[l,c]:5)
+           fimpara
+              escreval()
+      fimpara
+
+      escreval
+        para l de 0 ate 4 faca
+             para c de 0 ate 4 faca
+                  se l = c entao
+
+                     escreval("A diagonal da matriz é: ", valores[l,c])
+                  fimse
+             fimpara
+        fimpara
 
 fimalgoritmo
