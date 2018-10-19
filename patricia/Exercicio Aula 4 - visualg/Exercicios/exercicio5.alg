@@ -14,4 +14,8 @@ inicio
       Leia (endereco)
       Escreval ("Qual sua Idade?")
       Leia (idade)
+      Escreval("Nome: ", nome)
+      Escreval("Telefone: ", telefone)
+      Escreval("Endereco: ", endereco)
+      Escreval("Idade: ", idade)
 fimalgoritmo
