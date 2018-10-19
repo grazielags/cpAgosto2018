@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class exercicio04 {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		
 		float valor;
@@ -14,7 +15,7 @@ public class exercicio04 {
 		System.out.println("Digite o valor do produto R$: ");
 		valor = input.nextFloat();
 		
-		System.out.println("Digite o valor do reajuste (%): ");
+		System.out.println("Digite o valor do reajuste: ");
 		reajuste = input.nextFloat();
 		
 		valorReajustado = valor + (valor * (reajuste/100));

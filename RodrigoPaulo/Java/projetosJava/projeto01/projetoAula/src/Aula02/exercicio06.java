@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class exercicio06 {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		
 		String nome;
@@ -16,10 +17,10 @@ public class exercicio06 {
 		nome = input.nextLine();
 		
 		System.out.println("Digite o salario fixo do funcionário(R$): ");
-		salarioFixo = input.nextFloat();
+		salarioFixo = input.nextDouble();
 		
 		System.out.println("Digite o total de vendas do funcionario no mes(R$): ");
-		totVendas = input.nextFloat();
+		totVendas = input.nextDouble();
 		
 		salarioFM = salarioFixo + (totVendas * 0.15);
 		System.out.println("O salario de " + nome + " com comissão é de R$" + salarioFM);

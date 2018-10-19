@@ -5,27 +5,28 @@ import java.util.Scanner;
 public class Exercicio02 {
 	
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		
-		int altura;
-		int baseMenor;
-		int baseMaior;
-		float area;
+		double altura;
+		double baseMenor;
+		double baseMaior;
+		double area;
 		int areaAr;
 		
 		System.out.println("Entre com a altura: ");
-		altura = input.nextInt();
+		altura = input.nextDouble();
 		
 		System.out.println("Entre com a base menor: ");
-		baseMenor = input.nextInt();
+		baseMenor = input.nextDouble();
 		
 		System.out.println("Entre com a base maior: ");
-		baseMaior = input.nextInt();
+		baseMaior = input.nextDouble();
 		
 		area = (altura * (baseMenor + baseMaior)) / 2;
 		System.out.println("Área Total: " + area);
 		
-		areaAr = (altura * (baseMenor + baseMaior)) / 2;
+		areaAr = (int) ((altura * (baseMenor + baseMaior)) / 2);
 		System.out.println("Area Arredondada: " + areaAr);
 		
 		
