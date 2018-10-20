@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class exercicio04 {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 				
 		char letra;

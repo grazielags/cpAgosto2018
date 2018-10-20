@@ -3,8 +3,9 @@ package Aula03;
 import java.util.Scanner;
 
 public class exercicio03 {
-
+	
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 
 		char sexo;
