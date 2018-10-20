@@ -9,7 +9,7 @@ public class exercicio09 {
 		Scanner input = new Scanner(System.in);
 		
 		int parcelas;
-		float valor;
+		double valor;
 		double valorParcelas;
 				
 		System.out.println("Digite o valor do produto R$: ");
@@ -23,11 +23,13 @@ public class exercicio09 {
 		}
 		if ((parcelas >= 2 ) && (parcelas <= 5)) {
 			valorParcelas = ((valor * 0.05) + valor) / parcelas;
-			System.out.println("O valor da parcela em " + parcelas + "x é R$ " + valorParcelas);			
+			System.out.println("O valor da parcela em " + parcelas + "x é R$ " + valorParcelas);
+			System.out.println("O valor todal do produto com acréscimo de 5% é R$ " + (parcelas * valorParcelas));
 		} 
 		if ((parcelas >=6) && (parcelas <= 10)){
 			valorParcelas = ((valor * 0.15) + valor) / parcelas;
 			System.out.println("O valor da parcela em " + parcelas + "x é R$ " + valorParcelas);
+			System.out.println("O valor todal do produto com acréscimo de 15% é R$ " + (parcelas * valorParcelas));
 		}
 		
 	}
