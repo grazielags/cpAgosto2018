@@ -1,4 +1,4 @@
-algoritmo "05SomaVetor"
+	algoritmo "05SomaVetor"
 var
    soma, opcao, i : inteiro
    numeros : vetor[0..9] de inteiro

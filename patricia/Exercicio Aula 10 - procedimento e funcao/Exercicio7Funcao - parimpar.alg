@@ -14,6 +14,6 @@ funcao parimpar(): caracter
 inicio
       Escreval ("Informe um numero:")
       Leia (num1)
-      Escreval ("O valor informado e:", parimpar())
+      Escreval ("O valor informado", num1, " e:", parimpar())
 fimalgoritmo
 

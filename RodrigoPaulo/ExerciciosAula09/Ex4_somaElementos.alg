@@ -16,7 +16,18 @@ inicio
                  leia(matriz[l,c])
            fimpara
       fimpara
-
+      
+      limpatela
+      
+      escreval("Apresentação da Matriz")
+      escreval("-------------------------")
+      para l <- 0 ate 4 faca
+           para c <- 0 ate 4 faca
+              escreva(matriz[l,c]:5)
+           fimpara
+           escreval()
+      fimpara
+      escreval
        para l <- 0 ate 4 faca
           para c <- 0 ate 4 faca
                 soma <- soma + matriz[l,c]

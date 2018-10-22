@@ -1,9 +1,9 @@
 algoritmo "07NumeroEhPar"
 var
    numero : inteiro
-funcao ehPar() : logico
+funcao ehPar(x:inteiro) : logico
    inicio
-      se (numero mod 2) = 0 entao
+      se (x mod 2) = 0 entao
          retorne verdadeiro
       senao
          retorne falso
@@ -13,5 +13,5 @@ fimfuncao
 inicio
       escreval("Digite um número: ")
       leia(numero)
-      escreval("O número: ", numero, " é par? ", ehPar())
+      escreval("O número: ", numero, " é par? ", ehPar(numero))
 fimalgoritmo

@@ -11,10 +11,10 @@ inicio
       leia (C)
       se (a+b>=c) e (a+c>=b) e (b+c>=a) entao
          escreva ("e um triangulo:")
-         se (a=b) e (a=c) e (b=c) entao
+         se (a=b) e (b=c) entao
             escreval ("equilatero, todos os lados iguais")
          senao
-            se (a=b) ou (b=c) ou (c=a) entao
+            se (a=b) ou (b=c) entao
                escreval ("isosceles, dois lados iguais")
             senao (a<>b) e (b<>c) e (c<>a)
                escreval ("escaleno, todos os lados diferentes")

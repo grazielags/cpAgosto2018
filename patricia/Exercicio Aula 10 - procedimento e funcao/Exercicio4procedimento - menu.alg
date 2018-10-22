@@ -1,37 +1,40 @@
 algoritmo "Exercicio4Procedimento"
 
 var
-   opcaomenu: inteiro
+   opcaomenu, i: inteiro
+   numeros: vetor [0..1] de inteiro
 
 procedimento inserir()
    inicio
-      Escreval ("Chamou inserir")
+      para i de 0 ate 1 faca
+         Escreval ("Digite um numero [", i, "]")
+         Leia (numeros[i])
+      fimpara
    fimprocedimento
+
 procedimento exibir()
    inicio
-      Escreval ("Chamou exibir")
+      para i de 0 ate 1 faca
+         Escreval ("[", i, "]:", numeros[i])
+      fimpara
    fimprocedimento
    
 inicio
-      Escreval ("Selecione a opcao desejada conforme menu abaixo:")
-      Escreval ("1-Inserir")
-      Escreval ("2-Exibir")
-      Escreval ("3-Sair")
-      Leia (opcaomenu)
-      Escolha opcaomenu
-         caso 1
-         inserir()
+      repita
+         Escreval ("Selecione a opcao desejada conforme menu abaixo:")
+         Escreval ("1-Inserir")
+         Escreval ("2-Exibir")
+         Escreval ("3-Sair")
          Leia (opcaomenu)
-         caso 2
-         exibir()
-         Leia (opcaomenu)
-         caso 3
-         outrocaso
-         Escreval ("invalido")
-         Leia (opcaomenu)
-      fimescolha
+         Escolha opcaomenu
+            caso 1
+               inserir()
+            caso 2
+               exibir()
+            caso 3
+               Escreval ("saindo..")
+            outrocaso
+              Escreval ("opcao invalido")
+         fimescolha
+      ate opcaomenu = 3
 fimalgoritmo
-              // NAO DEU CERTO //
-
-//Crie um procedimento para inserir e um para exibir conteúdo do vetor
-//e ao digitar a opção 3 deve parar de executar o algoritmo.

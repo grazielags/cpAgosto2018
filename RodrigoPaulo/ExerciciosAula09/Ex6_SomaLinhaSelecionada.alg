@@ -11,7 +11,7 @@ inicio
 
       para linhas de 0 ate 3 faca
            para colunas de 0 ate 3 faca
-                escreva("Digite o valor desejado na posição [", linhas, colunas," ]: ")
+                escreva("Digite o valor desejado na posição [" , linhas, "][", colunas, "]")
                 leia(mat[linhas, colunas])
            fimpara
       fimpara
