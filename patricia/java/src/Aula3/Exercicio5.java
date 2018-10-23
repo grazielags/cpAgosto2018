@@ -20,6 +20,4 @@ public class Exercicio5 {
 		}
 		JOptionPane.showMessageDialog(null, "O preço do produto 'X' é menor na Loja "+lojaMenorValor);
 	}
-
 }
-//Faça um programa que leia o preço de 1 produto de 3 lojas diferentes e mostre na tela qual das lojas você deveria comprar o produto.
