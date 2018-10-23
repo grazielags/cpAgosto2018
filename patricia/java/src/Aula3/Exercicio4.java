@@ -7,9 +7,9 @@ public class Exercicio4 {
 	public static void main(String[] args) {
 		char letra = JOptionPane.showInputDialog("Digte uma letra: ").charAt(0);
 		if (letra == 'a' || letra == 'A' || letra == 'e' || letra == 'E' || letra == 'i' || letra == 'I' || letra == 'o' || letra == 'O' ||  letra == 'u' || letra == 'U'){
-			JOptionPane.showMessageDialog(null, "Vogal!");
+			JOptionPane.showMessageDialog(null, "'" + letra + " ' é uma vogal!");
 		} else 
-			JOptionPane.showMessageDialog(null, "Consoante!");
+			JOptionPane.showMessageDialog(null, "'" + letra + " '' é uma consoante!");
 	}
 
 }
