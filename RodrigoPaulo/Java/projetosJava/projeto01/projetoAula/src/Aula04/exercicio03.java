@@ -8,7 +8,7 @@ public class exercicio03 {
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 
-		int operacao;
+		char operacao;
 		double n1;
 		double n2;
 		double resultado;
@@ -23,26 +23,26 @@ public class exercicio03 {
 		n2 = input.nextDouble();
 
 		System.out.println("Digite a operação que deseja realizar conforme tabela abaixo: ");
-		System.out.println("   DIGITE 1 PARA SOMA");
-		System.out.println("   DIGITE 2 PARA DIVISÃO");
-		System.out.println("   DIGITE 3 PARA SUBTRAÇÃO");
-		System.out.println("   DIGITE 4 PARA MULTIPLICAÇÃO");
-		operacao = input.nextInt();
+		System.out.println("   (+) SOMA");
+		System.out.println("   (/) DIVISÃO");
+		System.out.println("   (-) SUBTRAÇÃO");
+		System.out.println("   (*) MULTIPLICAÇÃO");
+		operacao = input.next().charAt(0);
 
 		switch (operacao) {
-		case 1:
+		case '+':
 			resultado = (n1 + n2);
-			System.out.println("O resultado da soma de é: " + resultado);
+			System.out.println("O resultado da soma é: " + resultado);
 			break;
-		case 2:
+		case '/':
 			resultado = (n1 / n2);
 			System.out.println("O resultado da divisão é: " + resultado);
 			break;
-		case 3:
+		case '-':
 			resultado = (n1 - n2);
 			System.out.println("O resultado da subtração é: " + resultado);
 			break;
-		case 4:
+		case '*':
 			resultado = (n1 * n2);
 			System.out.println("O resultado da multiplicaço é: " + resultado);
 			break;

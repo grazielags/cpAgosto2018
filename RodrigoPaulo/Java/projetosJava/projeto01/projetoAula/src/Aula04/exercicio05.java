@@ -33,8 +33,8 @@ public class exercicio05 {
 		        else{
 		        	System.out.println("Mês de fevereiro possui 28 dias.");
 		        }
-					
-		            break;
+				break;
+		    
 		    case 3:
 		    	System.out.println("Mês de março possui 31 dias.");
 		            break; 

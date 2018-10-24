@@ -4,3 +4,6 @@ git commit -m "Mensagem"
 git pull --rebase
 git push origin master
 
+
+
+> Atalho para duplcar linha no Eclipe Ctrl + Alt + Enter(numPad)
