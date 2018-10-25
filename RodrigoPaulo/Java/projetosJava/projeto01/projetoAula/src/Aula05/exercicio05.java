@@ -18,7 +18,7 @@ public class exercicio05 {
 			}
 			
 			valorDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um número!"));
-		} while (valorDigitado >= 0);
+		} while (valorDigitado >= 1);
 		
 		JOptionPane.showMessageDialog(null, "A soma dos números pares é: " + soma
 				+ "\nA média dos números pares é: " + soma / countNumero
