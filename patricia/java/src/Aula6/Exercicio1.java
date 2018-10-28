@@ -5,20 +5,41 @@ import javax.swing.JOptionPane;
 public class Exercicio1 {
 
 	public static void main(String[] args) {
-		int altura = 0;
+		double altura = 0;
+		int sexo = 0;
+		double maiorAltura = 0;
+		double menorAltura = 0;
+		double mediaMulheres = 0;
+		double mediaTurma = 0;
+		double somaAlturaMulheres = 0;
+		double somaAltura = 0;
+		int qtdMulheres = 0;
 		for (int i = 0; i < 4; i++) {
-			altura = JOptionPane.showInputDialog("Informe a altura");
-			altura = JOptionPane.showInputDialog("Informe a altura");
-			
+			altura = Double.parseDouble(JOptionPane.showInputDialog("Informe a altura"));
+			sexo = Integer
+					.parseInt(JOptionPane.showInputDialog("Informe o sexo sendo 1 para masculino e 2 para feminino"));
+			if (i == 0) {
+				maiorAltura = altura;
+				menorAltura = altura;
+			} else {
+				if (altura > maiorAltura) {
+					maiorAltura = altura;
+				}
+				if (altura < menorAltura) {
+					menorAltura = altura;
+				}
+			}
+			if (sexo == 2) {
+				somaAlturaMulheres = somaAlturaMulheres + altura;
+				qtdMulheres++;
+			}
+			mediaMulheres = somaAlturaMulheres / qtdMulheres;
+			somaAltura = somaAltura + altura;
+			mediaTurma = somaAltura/5;
 		}
-		// TODO Auto-generated method stub
-
+		JOptionPane.showMessageDialog(null, "Maior altura da turma é: " + maiorAltura);
+		JOptionPane.showMessageDialog(null, "Maior altura da turma é: " + menorAltura);
+		JOptionPane.showMessageDialog(null, "A média das alturas das mulheres é: " + mediaMulheres);
+		JOptionPane.showMessageDialog(null, "A média das altura da turma: " + mediaTurma);
 	}
-
 }
-// Escrever um algoritmo que leia um conjunto de 5 informações contendo, cada
-// uma delas, a altura e o sexo de uma pessoa (código=1 - masculino, código=2 -
-// feminino), calcule e mostre o seguinte:
-// a) a maior e a menor altura da turma
-// b) a média da altura das mulheres
-// c) a média da altura da turma.
