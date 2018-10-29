@@ -1,5 +1,7 @@
 package Aula06;
 
+import java.text.DecimalFormat;
+
 import javax.swing.JOptionPane;
 
 public class Exercicio01 {
@@ -12,7 +14,9 @@ public class Exercicio01 {
 		double altura = 0;
 		double maiorAlturaTurma = 0;
 		double menorAlturaTurma = 0;
+		@SuppressWarnings("unused")
 		double mediaAlturaMulheres = 0;
+		@SuppressWarnings("unused")
 		double mediaAlturaTurma = 0;
 		double somaAlturaTurma = 0;
 		double somaAlturaMulheres = 0;
@@ -38,9 +42,9 @@ public class Exercicio01 {
 				}
 			}
 		}
-
-		JOptionPane.showMessageDialog(null, "A media de altura das mulheres é: " + (somaAlturaMulheres / quantidadeMulheres)
-				+ "\nA media de altura da turma é: " + (mediaAlturaTurma = somaAlturaTurma / 5)
+		DecimalFormat decimalFormat = new DecimalFormat("0.00");
+		JOptionPane.showMessageDialog(null, "A media de altura das mulheres é: " + decimalFormat.format((somaAlturaMulheres / quantidadeMulheres))
+				+ "\nA media de altura da turma é: " + decimalFormat.format((mediaAlturaTurma = somaAlturaTurma / 5))
 				+ "\nA maior altura é: " + maiorAlturaTurma
 				+ "\nA menor altura é: " + menorAlturaTurma);
 	

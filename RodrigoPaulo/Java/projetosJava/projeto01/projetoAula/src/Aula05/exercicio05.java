@@ -22,7 +22,7 @@ public class exercicio05 {
 		
 		JOptionPane.showMessageDialog(null, "A soma dos números pares é: " + soma
 				+ "\nA média dos números pares é: " + soma / countNumero
-				+ "\nO total de números digitados foi: " + countNumero);
+				+ "\nO total de números pares digitados foi: " + countNumero);
 		
 		
 	}
