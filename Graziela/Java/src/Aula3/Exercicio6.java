@@ -7,21 +7,21 @@ public class Exercicio6 {
 		byte numero1 = Byte.parseByte(JOptionPane.showInputDialog("Digite o 1º número."));
 		byte numero2 = Byte.parseByte(JOptionPane.showInputDialog("Digite o 2º número."));
 		byte numero3 = Byte.parseByte(JOptionPane.showInputDialog("Digite o 3º número."));
-		byte aux = 0;
+		byte troca = 0;
 		if(numero1 > numero2) {
-			aux = numero1;
+			troca = numero1;
 			numero1 = numero2;
-			numero2 = aux;
+			numero2 = troca;
 		}
 		if(numero1 > numero3) {
-			aux = numero1;
+			troca = numero1;
 			numero1 = numero3;
-			numero3 = aux;
+			numero3 = troca;
 		}
 		if(numero2 > numero3) {
-			aux = numero2;
+			troca = numero2;
 			numero2 = numero3;
-			numero3 = aux;
+			numero3 = troca;
 		}
 		JOptionPane.showMessageDialog(null, "1º número: " + numero1
 				+ "\n2º número: " + numero2

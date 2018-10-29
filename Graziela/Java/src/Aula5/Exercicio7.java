@@ -12,8 +12,8 @@ public class Exercicio7 {
 			numero = Integer.parseInt(JOptionPane.showInputDialog("Digite o número que você acha que é o correto!"));
 			contador++;
 		} while(numero != numeroRandom);
-		JOptionPane.showMessageDialog(null, "O número digitado foi: " + numero
-										+ "\nDemorou: " + contador + " vezes.");
+		JOptionPane.showMessageDialog(null, "Você acertou! O número digitado foi: " + numero
+										+ "\nDemorou: " + contador + " vezes para acertar.");
 	}
 
 }

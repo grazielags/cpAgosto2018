@@ -10,6 +10,7 @@ public class Exercicio6 {
 		int numero;
 		int fatorial;
 		int contadorFatorial;
+		String mensagem = "Valores da fatorial: ";
 		while (contador < numeroRepeticao) {
 			numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número."));
 			fatorial = 1;
@@ -18,9 +19,10 @@ public class Exercicio6 {
 				fatorial = fatorial * contadorFatorial;
 				contadorFatorial--;
 			}
-			JOptionPane.showMessageDialog(null, "A fatorial de: " + numero + " é: " + fatorial);
+			mensagem += "\nA fatorial de: " + numero + " é: " + fatorial;
 			contador++;
 		}
+		JOptionPane.showMessageDialog(null, mensagem);
 	}
 
 }
