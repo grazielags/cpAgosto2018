@@ -1,17 +1,24 @@
 package Aula4;
 
+import java.util.Calendar;
+
 import javax.swing.JOptionPane;
 
 public class Exercicio5 {
 
 	public static void main(String[] args) {
 		int mes = Integer.parseInt(JOptionPane.showInputDialog("Informe um número de 1 até 12"));
+		int anoAtual = Calendar.getInstance().get(Calendar.YEAR);
 		switch (mes) {
 		case 1:
 			System.out.println("Janeiro - 31");
 			break;
 		case 2:
-			System.out.println("Fevereiro - 28 ou 29 em caso de ano bissexto");
+			if (anoAtual%4 == 0 && anoAtual%100 != 0 || anoAtual%400 == 0) {
+				System.out.println("Fevereiro - 29 (ano bissexto)");
+			} else {
+				System.out.println("Fevereiro - 28");
+			}
 			break;
 		case 3:
 			System.out.println("Março - 31");

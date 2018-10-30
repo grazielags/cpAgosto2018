@@ -2,7 +2,7 @@ package Aula3;
 
 import javax.swing.JOptionPane;
 
-public class Exercicio06 {
+public class Exercicio6 {
 
 	public static void main(String[] args) {
 		int numero1 = Integer.parseInt(JOptionPane.showInputDialog("Informe um número: "));

@@ -18,10 +18,7 @@ public class exercicio05 {
 		System.out.println("Digite um ano ");
 		ano = input.nextInt();
 		
-		
-		switch(numero)
-		
-		{
+		switch(numero){
 		    case 1:
 		    	System.out.println("Mês de janeiro possui 31 dias.");
 		            break;
@@ -33,8 +30,8 @@ public class exercicio05 {
 		        else{
 		        	System.out.println("Mês de fevereiro possui 28 dias.");
 		        }
-					
-		            break;
+				break;
+		    
 		    case 3:
 		    	System.out.println("Mês de março possui 31 dias.");
 		            break; 

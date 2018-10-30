@@ -26,11 +26,12 @@ public class exercicio05 {
 			lojaEscolhida = "Magazine Luiza";
 		}
 		
-		System.out.println("Digite o preço do produto no Koerich loja");
+		System.out.println("Digite o preço do produto no Koerich: ");
 		loja03 = input.nextFloat();
 		if (loja03 < menorPreco) {
 			menorPreco = loja03;
 			lojaEscolhida = "Koerich";
+			
 		}
 		
 		System.out.println("O preço do " + lojaEscolhida + " é R$ " + menorPreco + ", por isso sua compra deve ser feita nessa loja. ");
