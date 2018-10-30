@@ -1,4 +1,5 @@
 package Aula05;
+import java.text.DecimalFormat;
 
 import javax.swing.JOptionPane;
 
@@ -20,18 +21,15 @@ public class exercicio03 {
 //		System.out.println("A altura de Manoel é: " + altManoel);
 //		System.out.println("A altura de João é: " + altJoao);
 		
+		DecimalFormat decimalFormat = new DecimalFormat("0.00");
 		JOptionPane.showMessageDialog(null,"Manoel levou " + ano + " anos para ficar maior que João."
-				+ "\nA altura final de João é: " + altJoao
-				+ "\nA altura final de Manoel é: " + altManoel);
+				+ "\nA altura final de João é: " + decimalFormat.format(altJoao)
+				+ "\nA altura final de Manoel é: " + decimalFormat.format(altManoel));
 	}
 
 }
 
-//JOptionPane.showMessageDialog(null, "Nome: " + nome
-//numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número!"));
-//+ "\nIdade: " + idade
-//+ “\nSexo: ” + sexo
-//+ "\nEmpréstimo: " + numero);
+
 
 //João tem 1,50 metro e cresce 2 centímetros por ano, enquanto Manoel tem 1,10 metro e cresce 3 centímetros por ano. 
 //Construa um algoritmo que calcule e imprima quantos anos serão necessários para que Manoel seja maior que João.
