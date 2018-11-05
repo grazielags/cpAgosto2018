@@ -8,7 +8,7 @@ public class Exercicio7 {
 
 	public static void main(String[] args) {
 		int palpite = 0;
-		int aleatorio = new Random().nextInt();
+		int aleatorio = (int) (Math.random()*11);
 		System.out.println(aleatorio);
 		int count = 0;
 		while (palpite != aleatorio) {

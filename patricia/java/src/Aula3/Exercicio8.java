@@ -15,5 +15,8 @@ public class Exercicio8 {
 		if (idadePessoa >= 18 && idadePessoa <= 25) {
 			JOptionPane.showMessageDialog(null, "Categoria Adulto");
 		}
+		if (idadePessoa <= 9  || idadePessoa >= 25) {
+			JOptionPane.showMessageDialog(null, "Idade Inválida");
+		}
 	}
 }
