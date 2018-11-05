@@ -11,10 +11,10 @@ public class Exercicio04 {
 		int somaCandidato3 = 0;
 		int somaCandidato4 = 0;
 		int somaNulo5 = 0;
-		int somaBranco6 = 0;
+     	int somaBranco6 = 0;
 		int candidatoVotado = -1;
 		while (candidatoVotado != 0) {
-			candidatoVotado = Integer.parseInt(JOptionPane.showInputDialog("Vote! "));
+			candidatoVotado = Integer.parseInt(JOptionPane.showInputDialog("Vote! e aperte o zero para finalizar. "));
 			switch (candidatoVotado) {
 			case 1:
 				somaCandidato1++;
