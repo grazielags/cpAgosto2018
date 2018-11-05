@@ -1,21 +1,16 @@
 package Aula6;
 
-public class Exercicio02; {
+ import javax.swing.JOptionPane;
 
-	import javax.swing.JOptionPane;
+ public class Exercicio02 {
 
 	public static void main(String[] args) {
-		
-		String numero = JOptionPane.showInputDialog("Calcular fatorial do numero:" );
-		int num = Integer.parseInt(numero);
-		
-		JOptionPane.showMessageDialog(null,"Fatorial de " + num + " é " + fatorialDoNumero(num));		
-	}
-	private static long fatorialDoNumero(int num) {
-		int anterior = num-1;
-		long fatorialDesteNumero = 0;
-		if (num <= 1) return 1;
-			else fatorialDesteNumero =  num * fatorialDoNumero(anterior);
-		return fatorialDesteNumero;
+		int fatorial = 1;
+		int n = Integer.parseInt(
+				JOptionPane.showInputDialog("Informe um número para saber seu fatorial"));
+		for (int i = 0; i < n ; i++) {
+			fatorial = fatorial * (n-i);
+		}
+		JOptionPane.showMessageDialog(null, "O fatorial de " + n + " é:" + fatorial);
 	}
 }
