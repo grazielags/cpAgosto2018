@@ -10,15 +10,16 @@ public class exercicio05 {
 		double soma = 0;
 		int countNumero = 0;
 		
-		valorDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um número!"));
+		
 		do {
-			if (valorDigitado % 2 == 0) {
+			valorDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um número!"));
+			if (valorDigitado % 2 == 0 && valorDigitado != 0) {
 				soma = (soma + valorDigitado);
 				countNumero++;
 			}
 			
-			valorDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um número!"));
-		} while (valorDigitado >= 1);
+			
+		} while (valorDigitado != 0);
 		
 		JOptionPane.showMessageDialog(null, "A soma dos números pares é: " + soma
 				+ "\nA média dos números pares é: " + soma / countNumero

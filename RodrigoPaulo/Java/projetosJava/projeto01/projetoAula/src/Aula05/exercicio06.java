@@ -6,20 +6,24 @@ public class exercicio06 {
 
 	public static void main(String[] args) {
 
-		int numeroLido;
+		int numeroRepeticao = Integer.parseInt(JOptionPane.showInputDialog("Digite o número correspondente a quantidade de vezes que deseja calcular o fatorial!"));
 		int contador = 0;
-		int quantidadeNumerosLidos = Integer
-				.parseInt(JOptionPane.showInputDialog("Digite a quantidade de números para fatorar: "));
-
-		while (contador < quantidadeNumerosLidos) {
-			numeroLido = Integer.parseInt(JOptionPane.showInputDialog("Digite o número que deseja fatorar: "));
+		int numero;
+		int fatorial;
+		int contadorFatorial;
+		while (contador < numeroRepeticao) {
+			numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número."));
+			fatorial = 1;
+			contadorFatorial = numero;
+			while(contadorFatorial > 1) {
+				fatorial = fatorial * contadorFatorial;
+				contadorFatorial--;
+			}
+			JOptionPane.showMessageDialog(null, "A fatorial de: " + numero + " é: " + fatorial);
 			contador++;
-
 		}
-
-		JOptionPane.showMessageDialog(null, "A quantidade de números digitados foi: " + quantidadeNumerosLidos);
-
 	}
+
 }
 /**
  * Escrever um algoritmo que leia um número n que indica quantos valores devem
