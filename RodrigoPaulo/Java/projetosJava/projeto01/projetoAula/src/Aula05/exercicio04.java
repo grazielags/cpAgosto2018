@@ -33,15 +33,15 @@ public class exercicio04 {
 */		
 		
 		do {
-			JOptionPane.showMessageDialog(null, ">>> SUPER HEROIS ANOS 90 <<<"
+			count = Integer.parseInt(JOptionPane.showInputDialog(">>> SUPER HEROIS ANOS 90 <<<"
 					+ "\n   1 - Jaspion"
 					+ "\n   2 - Jiraya"
 					+ "\n   3 - Black Kamen Rider"
 					+ "\n   4 - Jiban"
 					+ "\n   5 - Voto Branco"
 					+ "\n   6 - Voto Nulo"
-					+ "\n   0 - Ver resultados");
-			count = Integer.parseInt(JOptionPane.showInputDialog("Digite um número!"));
+					+ "\n   0 - Ver resultados"));
+			
 			
 //			System.out.println("Qual seu super herói favorito? ");
 //			count = input.nextInt();
