@@ -5,21 +5,18 @@ import javax.swing.JOptionPane;
 public class Exercicio7Extra {
 
 	public static void main(String[] args) {
-		parImpar();
+		String parImpar = parImpar();
+		JOptionPane.showMessageDialog(null, "O número informado é: " + parImpar);
 
 	}
 
 	public static String parImpar() {
-		String saida;
 		int numero = Integer.parseInt(JOptionPane.showInputDialog("Informe um número:"));
 		if (numero % 2 == 0) {
-			saida = "par";
+			return "par";
 		} else {
-			saida = "impar"; 
+			return "impar"; 
 		}
-
-		JOptionPane.showMessageDialog(null, "O número informado é: " + saida);
-		return saida;
 	}
 
 }

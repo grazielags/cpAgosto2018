@@ -22,3 +22,4 @@ public class Exercicio1 {
 		JOptionPane.showMessageDialog(null, "a matriz informada é: " + saida);
 	}
 }
+// resultado errado

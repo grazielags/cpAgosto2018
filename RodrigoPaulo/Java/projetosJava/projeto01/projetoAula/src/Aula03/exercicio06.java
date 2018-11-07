@@ -14,10 +14,12 @@ public class exercicio06 {
 		int maior;
 		int menor;
 		
+		
 		System.out.println("Digite o primeiro número: ");
 		n1 = input.nextInt();
 		maior = n1;
 		menor = n1;
+		
 		
 		System.out.println("Digite o segundo número: ");
 		n2 = input.nextInt();
@@ -25,7 +27,8 @@ public class exercicio06 {
 			maior = n2;
 		} else {
 			menor = n2;
-		}
+		} 
+		
 		
 		System.out.println("Digite o terceiro número: ");
 		n3 = input.nextInt();
