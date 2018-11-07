@@ -3,24 +3,22 @@ package Aula7;
 import javax.swing.JOptionPane;
 
 public class Exercicio5Extra {
-	int [] valores = new int[10];
+	static int [] valores = new int[10];
 
 	public static void main(String[] args) {
-		Exercicio5Extra exe5 = new Exercicio5Extra();
-		exe5.preencherVetor();
-		exe5.somaVetor();
+		preencherVetor();
+		somaVetor();
 
 	}
 	
-	public void preencherVetor () {		
+	public static void preencherVetor () {		
 		for (int i = 0; i < 10; i++) {
-			int valorPosicao = Integer.parseInt(JOptionPane.showInputDialog("Escreva um valor para a posição [" + i + "]."));
-			valores[i] = valorPosicao;
+			valores[i] = Integer.parseInt(JOptionPane.showInputDialog("Escreva um valor para a posição [" + i + "]."));
 		}
 
 	}
 	
-	public void somaVetor() {
+	public static void somaVetor() {
 		int soma = 0;
 		for (int i = 0; i < 10; i++) {
 			soma = soma + valores [i];

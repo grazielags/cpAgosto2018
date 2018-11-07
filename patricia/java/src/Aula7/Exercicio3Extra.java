@@ -5,21 +5,17 @@ import javax.swing.JOptionPane;
 public class Exercicio3Extra {
 
 	public static void main(String[] args) {
-		numMaior();
+		int maiorNumero = numMaior();
+		JOptionPane.showMessageDialog(null, "o maior número é:" + maiorNumero);
 
 	}
 
 	public static int numMaior() {
 		int num1 = Integer.parseInt(JOptionPane.showInputDialog("Informe um número"));
 		int num2 = Integer.parseInt(JOptionPane.showInputDialog("Informe um número"));
-		int maiorNumero = 0;
 		if (num1 > num2) {
-			maiorNumero = num1;
-		} else {
-			maiorNumero = num2;
+			return num1;
 		}
-		JOptionPane.showMessageDialog(null, "o maior número é:" + maiorNumero);
-		return maiorNumero;
-
+		return num2;
 	}
 }
