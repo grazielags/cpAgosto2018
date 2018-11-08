@@ -1,0 +1,19 @@
+package Aula9;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+			int num = Integer.parseInt(JOptionPane.showInputDialog("Digite número: "));
+			int soma = somaAlgarismosC(num);
+			JOptionPane.showMessageDialog(null, "A soma dos algarismos é: "+ soma);
+			}
+			
+	        private static int somaAlgarismosC(int num) {
+	        	if(num<10)
+	                return num;
+	            else
+	                return somaAlgarismosC(num/10)+num%10;
+	        }
+	}
