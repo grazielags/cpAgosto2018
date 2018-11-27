@@ -4,33 +4,31 @@ import javax.swing.JOptionPane;
 
 public class Exercicio04 {
 
-	public static void main(String[] args) {
-		double nota01 = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite a primeira nota do aluno: "));
-		double nota02 = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite a segunda nota do aluno: "));
-
-
-		double media = (nota01 + nota02) /2;
-
-		conceito(media);
-
-	}
-
-	private static double conceito(double media) {
-		if ((media >= 0) && (media <= 4.9)) {
-			JOptionPane.showMessageDialog(null, "Aluno pertence ao CONCEITO D");
-		} else if ((media >= 5.0) && (media <= 6.9)) {
-			JOptionPane.showMessageDialog(null, "Aluno pertence ao CONCEITO C");
-		} else if ((media >= 7.0) && (media <= 8.9)) {
-			JOptionPane.showMessageDialog(null, "Aluno pertence ao CONCEITO B");
-		} else if ((media >= 9.0) && (media <= 10)) {
-			JOptionPane.showMessageDialog(null, "Aluno pertence ao CONCEITO A");
-		}
-		return media;
-
-	}
 	
+		public static void main(String[] args) {
+			double media = Double.parseDouble(JOptionPane.showInputDialog("Digite a média!"));
+			char conceito = verificaConceito(media);
+			if(conceito == ' ') {
+				JOptionPane.showMessageDialog(null, "A média: " + media + " é inválida!");
+			} else {
+				JOptionPane.showMessageDialog(null, "A média " + media + " tem o conceito: " + conceito);
+			}
+		}
 
-}
+		private static char verificaConceito(double media) {
+			if(media >= 0 && media < 5) {
+				return 'D';
+			} else if(media >= 5 && media < 7) {
+				return 'C';
+			} else if(media >= 7 && media < 9) {
+				return 'B';
+			} else if(media >=9 && media <= 10) {
+				return 'A';
+			}
+			return ' ';
+		}
+	}
+
 //4) Faça uma função que recebe a média final de um aluno por parâmetro e retorna o seu conceito, 
 //conforme a tabela abaixo:
 //Nota	        Conceito

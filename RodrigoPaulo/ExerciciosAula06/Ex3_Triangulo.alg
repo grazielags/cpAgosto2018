@@ -1,34 +1,35 @@
 algoritmo "Ex3_Triangulo"
-// FunÁ„o : Dados trÍs valores A, B e C, verifique se eles podem ser os comprimentos dos lados de um tri‚ngulo, se forem, verificar o tipo do tri‚ngulo.
-// Se os lados n„o formarem um tri‚ngulo, escrever uma mensagem.
-//* O comprimento de cada lado em um tri‚ngulo È menor que a soma dos outros dois lados;
-//* Equil·teros: tem os comprimentos dos trÍs lados iguais;
-//* IsÛsceles: tem os comprimentos de dois lados iguais;
-//* Escaleno: tem os comprimentos dos trÍs lados diferentes
+// Fun√ß√£o : Dados tr√™s valores A, B e C, verifique se eles podem ser os comprimentos dos lados de um tri√¢ngulo, 
+//se forem, verificar o tipo do tri√¢ngulo.
+// Se os lados n√£o formarem um tri√¢ngulo, escrever uma mensagem.
+//* O comprimento de cada lado em um tri√¢ngulo √© menor que a soma dos outros dois lados;
+//* Equil√°teros: tem os comprimentos dos tr√™s lados iguais;
+//* Is√≥sceles: tem os comprimentos de dois lados iguais;
+//* Escaleno: tem os comprimentos dos tr√™s lados diferentes
 // Autor : Rodrigo Paulo
 // Data : 12/9/2018
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 l1, l2, l3: real
 tipo: caracter
 inicio
-escreva ("Insira o lado 1 do tri‚ngulo: ")
+escreva ("Insira o lado 1 do tri√¢ngulo: ")
 leia (l1)
-escreva ("Insira o lado 2 do tri‚ngulo: ")
+escreva ("Insira o lado 2 do tri√¢ngulo: ")
 leia (l2)
-escreva ("Insira o lado 3 do tri‚ngulo: ")
+escreva ("Insira o lado 3 do tri√¢ngulo: ")
 leia (l3)
 
    se (l1 > l2+l3) ou (l2 > l1+l3) e (l3 > l2+l1) entao
-      escreval("Isso n„o È um triangulo")
+      escreval("Isso n√£o √© um triangulo")
    senao
-        se (l1 = l2) e (l1 = l3) e (l2 = l3) entao
-           escreval("Esse È um triangulo Equilatero")
+        se (l1 = l2) e (l1 = l3) entao
+           escreval("Esse √© um triangulo Equilatero")
         senao
              se (l1 <> l2) e (l1 <> l3) e (l2 <> l3) entao
-                escreval("Esse È um triangulo Escaleno")
+                escreval("Esse √© um triangulo Escaleno")
              senao
-                escreval("Esse È um triangulo Isoceles")
+                escreval("Esse √© um triangulo Isoceles")
              fimse
         fimse
    fimse

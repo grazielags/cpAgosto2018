@@ -1,9 +1,7 @@
+> Sequencia GIT
+
 git status
 git add .
-git commit -m "Mensagem"
+git commit -m "Escreva aqui sua mensagem"
+git puh origin master
 git pull --rebase
-git push origin master
-
-
-
-> Atalho para duplcar linha no Eclipe Ctrl + Alt + Enter(numPad)
